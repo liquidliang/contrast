@@ -1,0 +1,29 @@
+<!doctype html>
+<html data-framework="vue">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>bcd.js • TodoMVC</title>
+    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+    
+  </head>
+  <body>
+      <section data-page="todo" class="todoapp">
+        <header class="header">
+          <h1>todos</h1>
+          <input data-on="?m=todu_input" class="new-todo" autofocus autocomplete="off"
+            placeholder="What needs to be done?">
+        </header>
+        
+      </section>
+      <footer class="info">
+        <p>Double-click to edit a todo</p>
+        <p>Written by <a href="https://github.com/ljquan/bcd">liquidliang</a></p>
+        <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+      </footer>
+    <script>window.global_isDebug = true;</script>
+    <script src="node_modules/zepto/dist/zepto.js"></script>
+    <script src="node_modules/bcdjs/build/bcd.js"></script>
+    <script src="./todo.js"></script>
+  </body>
+</html>

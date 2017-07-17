@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "description": "todomvc 性能比较",
+  "name": "contrast",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-open": "^2.0.0",
+    "gulp-serve": "^1.4.0"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "start": "gulp"
+  }
+}

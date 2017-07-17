@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TodoMVC</title>
+    <meta name="description" content="虚拟dom与直接操作dom的框架之间的比较">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!-- endbuild -->
+    <!-- build:css site-assets/main.min.css -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <style is="custom-style">
+        paper-tabs {
+            --paper-tabs-selection-bar-color: #b12d2b;
+        }
+
+        paper-tab {
+            --paper-tab-ink: #b12d2b;
+        }
+
+        paper-tabs,
+        core-toolbar {
+            color: rgb(53, 53, 53);
+            background-color: #f4f4f4;
+            font-family: 'Helvetica Neue', Helvetica, Arial;
+            box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="col-md-8">
+        <h2>导航</h2>
+        <div class="js-app-list" data-app-list="js">
+            <p class="applist-intro">
+                点击进入相应的todo实现。
+            </p>
+            <ul class="js-app-list-inner applist js">
+                <li class="routing">
+                    <a target="_blank" href="./backbone/index.html" data-source="http://backbonejs.org/" data-content="Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.">Backbone.js</a>
+                </li>
+                <li class="routing">
+                    <a target="_blank" href="./bcd/index.html" data-source="https://github.com/ljquan/bcd" data-content="BCD is a lightweight, component-based JavaScript framework that maps behavior to DOM nodes. ">BCD</a>
+                </li>
+                <li class="routing">
+                    <a target="_blank" href="./react/index.html" data-source="http://facebook.github.io/react/" data-content="React is a JavaScript library for building user interfaces.">React</a>
+                </li>
+                <li class="routing">
+                    <a target="_blank" href="./vue/index.html" data-source="http://vuejs.org" data-content="Vue.js provides the benefits of MVVM data binding and a composable component system with an extremely simple and flexible API.">Vue.js</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
